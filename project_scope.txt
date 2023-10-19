@@ -1,0 +1,16 @@
+Concert Booking System with Song Request Software
+1.1 Concert Manager
+	1.1.1 Add, edit, delete concert
+	1.1.2 Check time conflicts when adding concert
+	1.1.3 Search concerts by location
+	1.1.4 Buy, refund the ticket
+	1.1.5 View available ticket
+	1.1.6 Collect information about the concert (ie headcount)
+1.2 Ticket
+	1.2.1 Vote for the song
+	1.2.2 Add ticket into cart
+1.3 Account
+	1.3.1 Cart checkout
+	1.3.2 View owned ticket
+1.4 Song_setlist
+	1.4.1 Add and delete the setlist
