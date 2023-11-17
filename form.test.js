@@ -8,8 +8,6 @@ const dom = new JSDOM('<!doctype html><html><body><form id="form"></form></body>
 global.document = dom.window.document;
 global.window = dom.window;
 
-// Your actual test code follows...
-
 const checkValidInput = require('./form');
 
 test('Using invalid input', () => {
