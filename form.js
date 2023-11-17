@@ -13,7 +13,7 @@ form.addEventListener('submit', (e) => {
     const numTickets = document.getElementById('numTickets').value;
 
     if (!validateForm(fname, lname, eventName, numTickets)) {
-        event.preventDefault(); // Prevent form submission if validation fails
+        e.preventDefault(); // Prevent form submission if validation fails
         alert('First name and last name must be at least one character long, Number of Tickets must be greater than 0 and an event must be selected')
     }
     else {
