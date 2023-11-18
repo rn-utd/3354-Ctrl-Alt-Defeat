@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <title>Concert Ticket Reservation System</title>
-        <link rel="stylesheet" type="text/css" href="/styles.css">
-        <script src="form.js"></script>
-    </head>
-    <body>
-        <h1>Reserve a concert ticket today!</h1>
-        <form id="form" class="reservation-form">
-            <label for="fname">First Name: </label>
-            <input type="text" id="fname" name="fname">
-            <label for="lname">Last Name: </label>
-            <input type="text" id="lname" name="lname">
-            <label for="eventName">Choose a concert date and location: </label>
-            <select id="eventName" name="eventName">
-                <option value=""> </option>
-                <option value="Nov20Phoenix">November 20th in Phoenix, AZ</option>
-                <option value="Nov26Charlotte">November 26th in Charlotte, NC</option>
-                <option value="Nov30Seattle">November 30th in Seattle, WA</option>
-            </select>
-            <label for="numTickets">Number of tickets: </label>
-            <input type="number" id="numTickets" name="numTickets">
-            <button type="submit">Submit</button>
-        </form>
 
-        
-    </body>
+<head>
+    <title>Concert Ticket Reservation System</title>
+    <link rel="stylesheet" type="text/css" href="/form.css">
+
+</head>
+
+<body>
+    <h1>Reserve a concert ticket today!</h1>
+    <form id="form" class="reservation-form">
+        <label for="fname">First Name: </label>
+        <input type="text" id="fname" name="fname">
+        <label for="lname">Last Name: </label>
+        <input type="text" id="lname" name="lname">
+        <label for="eventName">Choose a concert date and location: </label>
+        <select id="eventName" name="eventName">
+            <option value=""> </option>
+            <option value="Nov20Phoenix">November 20th in Phoenix, AZ</option>
+            <option value="Nov26Charlotte">November 26th in Charlotte, NC</option>
+            <option value="Nov30Seattle">November 30th in Seattle, WA</option>
+        </select>
+        <label for="numTickets">Number of tickets: </label>
+        <input type="number" id="numTickets" name="numTickets">
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+<script src="form.js"></script>
+
 </html>
