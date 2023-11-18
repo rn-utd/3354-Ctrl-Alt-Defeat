@@ -2,6 +2,7 @@ function checkValidInput(fname, lname, eventName, numTickets) {
     const isString = (str) => /^[A-Za-z]+$/.test(str);
     return isString(fname) && isString(lname) && !isNaN(Number(numTickets)) && Number(numTickets) > 0 && eventName != "";
 }
+module.exports = checkValidInput;
 
 const form = document.getElementById('form');
 
