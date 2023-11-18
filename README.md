@@ -7,4 +7,4 @@ Our website offers a user-friendly interface with just a touch of whimsy, making
 
 So, join us at Ctrl-Alt-Defeat, where the only thing easier than booking your ticket is enjoying the concert itself. Get ready to click, laugh a little, and dive into the music scene with ease! 🎫🎸🎉
 
-We suggest testing library to confirm the format of the input. One of the test is for date selection and the other if for name and number of tickets. 
+We implemented test cases to confirm the format of the input. One of the test is for date selection and the other is for name and number of tickets. 
